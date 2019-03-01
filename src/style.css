@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
+div{
+  background-image: url('https://www.desktopbackground.org/download/540x960/2013/10/01/647489_anime-scenery-wallpapers_1920x1080_h.jpg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+/*first page*/
+
 .first {
   height: 1200px;
   margin: 2em;
@@ -11,22 +20,132 @@
 }
 
 .first h1 {
-  font-size: 3em;
+  font-size: 4em;
   font-family: 'Permanent Marker', cursive;
   border-radius: 20px;
   padding:20px;
-  background:green;
+  background:white;
   margin: 50px;
 }
 
+.first p{
+    font-size: 20px;
+    font-family:'Quicksand', sans-serif;
+    color: black;
+    padding:20px;
+    background: white;
+    border-radius: 20px;
+    margin:40px;
+    text-align: left;
+  }
+
+#start {
+    position: relative;
+    padding: 24px 50px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    top: 20px;  
+    background-color: white;
+    font-family:'Quicksand', sans-serif;
+}
+
+/*second page*/
 .second {
   height: 1200px;
   margin: 2em;
   padding: 3px;
   text-align: center;
-  border-radius:20px;
+  border-radius: 20px;
 }
 
+.second p {
+    font-size: 20px;
+    font-family:'Quicksand', sans-serif;
+    color: black;
+    padding:20px;
+    background: white;
+    border-radius: 20px;
+    margin:40px;
+    text-align: left;
+}
+
+#numbershift {
+    font-size: 20px;
+    font-family:'Quicksand', sans-serif;
+    color: black;
+    padding:20px 30px;
+    background: white;
+    border-radius: 20px;
+    margin:40px;
+    text-align: left;
+}
+
+#profesor {
+    position: relative;
+    padding: 18px 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    top: 20px;  
+    background-color: white;
+    font-family:'Quicksand', sans-serif;
+}
+
+#cipherbox {
+    border-radius: 20px;
+    padding: 18px; 
+    width: 300px;
+    height: 15px;
+    font-size: 20px;
+}
+
+#shifter {
+    border-radius: 20px;
+    padding: 18px; 
+    width: 300px;
+    height: 15px;
+    font-size: 20px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin:40px;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(22, 91, 221);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(110, 156, 167);
+    cursor: pointer;
+  }
+
+/*third page*/
 .third {
   height: 1200px;
   margin: 2em;
@@ -34,3 +153,90 @@
   text-align: center;
   border-radius:20px;
 }
+
+.third p {
+    font-size: 20px;
+    font-family:'Quicksand', sans-serif;
+    color: black;
+    padding:20px;
+    background: white;
+    border-radius: 20px;
+    margin:40px;
+    text-align: left;
+}
+
+#numbershift1 {
+    font-size: 18px;
+    font-family:'Quicksand', sans-serif;
+    color: black;
+    padding:20px;
+    background: white;
+    border-radius: 20px;
+    margin:40px;
+    text-align: left;
+}
+
+#again {
+    position: relative;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    top: 20px;  
+    background-color: white;
+    font-family:'Quicksand', sans-serif; 
+}
+
+.third h2 {
+    font-size: 2.5em;
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 20px;
+    padding:20px;
+    background:white;
+    margin: 50px;
+}
+
+.third h3 {
+    font-size: 2.5em;
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 20px;
+    padding:20px;
+    background:white;
+    margin: 50px;
+}
+
+.slider31 {
+    -webkit-appearance: none;
+    width: 300px;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin:40px;
+  }
+  
+  .slider31:hover {
+    opacity: 1;
+  }
+  
+  .slider31::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(22, 91, 221);
+    cursor: pointer;
+  }
+  
+  .slider31::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgb(110, 156, 167);
+    cursor: pointer;
+  }
