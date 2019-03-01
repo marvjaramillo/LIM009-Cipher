@@ -6,8 +6,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+    <div id="first" class="first">
+      <h1>Hola Humano!</h1>
+      <p>¿Sabías que? El emperador romano Julio César usaba un tipo de cifrado por sustitución 
+        para enviar órdenes secretas a sus generales en los campos de batalla.<br>Bueno, ahora 
+        puedes hacer lo mismo con tus preguntas a tu profe, sin que tus compañeros lo sepan.
+      </p>
+      <div><button id="start" type="button">Comenzar</button></div>
+    </div>
+    <div id="second" class="second"> 
+      <p>Primero, escribe tu pregunta en le cuadro de la izquierda.<br>Después, desplaza hasta la 
+        cantidad que desees.<br>Y ..voilà!
+      </p>
+      <p># Desplazamientos: </p>
+      <div><input id="shift1" type="range" min="1" max="26"></div>
+      <span><textarea id="normal" placeholder="Texto normal..." rows="6"></textarea></span>
+      <span><textarea id="ciphertxt" placeholder="Texto cifrado..." rows="6"></textarea></span>
+      <p>Aquí copia tu cifrado para que tu profe lo descifre en la siguiente página.</p>
+      <div><input id="cipherbox" type="text" placeholder="cifrado"></div>
+      <div><input id="shifter" type="text" placeholder="dezplazamiento"></div>
+      <div><button id="profesor" type="button">Profesor</button></div>      
+    </div>
+    <div id="third" class="third">
+      <p>Okay profesor, este el cifrado de tu alumno(a), y el desplazamiento para descifrar la pregunta.</p>
+      <h2 id="studentcipher"></h2>
+      <h3 id="decipheroffset"></h3>
+      <p>Solo copie el cifrado en el primer cuadro, y luego desplaze lo que resulte de la resta entre 26 y el número mostrado arriba. Así de fácil!</p>
+      <p># Desplazamientos: </p>
+      <div><input id="shift2" type="range" min="1" max="26"></div>
+      <span><textarea id="cifradotxt" placeholder="Texto cifrado..." rows="6"></textarea></span>
+      <span><textarea id="answerciphertxt" placeholder="Texto descifrado..." rows="6"></textarea></span>
+      <div><button id="again" type="button">Descifrar otra vez!</button></div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

@@ -1,1 +1,36 @@
 /* Acá va tu código */
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.first {
+  height: 1200px;
+  margin: 2em;
+  padding: 3px;
+  text-align: center;
+  border-radius:20px;
+}
+
+.first h1 {
+  font-size: 3em;
+  font-family: 'Permanent Marker', cursive;
+  border-radius: 20px;
+  padding:20px;
+  background:green;
+  margin: 50px;
+}
+
+.second {
+  height: 1200px;
+  margin: 2em;
+  padding: 3px;
+  text-align: center;
+  border-radius:20px;
+}
+
+.third {
+  height: 1200px;
+  margin: 2em;
+  padding: 3px;
+  text-align: center;
+  border-radius:20px;
+}
