@@ -7,7 +7,7 @@ window.cipher = {
     for(let i = 0; i < nortxt.length; i++) {
       const codigoLetra = nortxt.charCodeAt(i);
       if(codigoLetra >= 65 && codigoLetra <= 90) {
-        //mayúsculas
+      //mayúsculas
         output += String.fromCharCode((codigoLetra - 65 + valOffset) % 26 + 65 );
       } else if (codigoLetra === 32) {
       //espacio  
@@ -15,6 +15,9 @@ window.cipher = {
       } else if (codigoLetra >= 97 && codigoLetra <= 122) {
       //minúsculas
         output += String.fromCharCode((codigoLetra - 97 + valOffset) % 26 + 97);
+      } else   {codigoLetra === 10;
+        //salto de línea
+        output += String.fromCharCode(codigoLetra);
       }
     }
     return output;
@@ -35,8 +38,16 @@ window.cipher = {
       } else if (codigoletra1 >= 97 && codigoletra1 <= 122) {
         //minúsculas
         result += String.fromCharCode((codigoletra1 + 7 - valOffset1) % 26 + 97);
+      } else {codigoletra1 === 10;
+        //salto de línea
+        result += String.fromCharCode(codigoletra1);
       }
     }
     return result;
   }
 };
+function newFunction(output, nortxt, i) {
+  output += nortxt[i];
+  return output;
+}
+

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 div{
-  background-image: url('https://www.desktopbackground.org/download/540x960/2013/10/01/647489_anime-scenery-wallpapers_1920x1080_h.jpg');
+  background-image: url('https://i.pinimg.com/originals/a9/e0/a4/a9e0a41ee71d3194a131bdacc024567d.jpg');
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
@@ -12,7 +12,7 @@ div{
 /*first page*/
 
 .first {
-  height: 1200px;
+  height: 580px;
   margin: 2em;
   padding: 3px;
   text-align: center;
@@ -53,7 +53,7 @@ div{
 
 /*second page*/
 .second {
-  height: 1200px;
+  height: 1370px;
   margin: 2em;
   padding: 3px;
   text-align: center;
@@ -100,6 +100,7 @@ div{
     width: 300px;
     height: 15px;
     font-size: 20px;
+    margin: 1em;
 }
 
 #shifter {
@@ -108,6 +109,7 @@ div{
     width: 300px;
     height: 15px;
     font-size: 20px;
+    margin: 1em;
 }
 
 .slider {
@@ -117,14 +119,9 @@ div{
     border-radius: 5px;
     background: #d3d3d3;
     outline: none;
-    opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
     margin:40px;
-  }
-  
-  .slider:hover {
-    opacity: 1;
   }
   
   .slider::-webkit-slider-thumb {
@@ -145,9 +142,26 @@ div{
     cursor: pointer;
   }
 
+  #normal {
+    padding: 18px;
+    margin: 2em;
+    width: 90%;
+    height: 150px;
+    font-size: 20px;
+  }
+
+  #ciphertxt {
+    padding: 18px;
+    margin: 2em;
+    width: 90%;
+    height: 150px;
+    font-size: 20px;
+  }
+
+
 /*third page*/
 .third {
-  height: 1200px;
+  height: 1800px;
   margin: 2em;
   padding: 3px;
   text-align: center;
@@ -189,21 +203,19 @@ div{
 }
 
 .third h2 {
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: 'Permanent Marker', cursive;
-    border-radius: 20px;
+    color: white;
     padding:20px;
-    background:white;
-    margin: 50px;
+    margin: 20px;
 }
 
 .third h3 {
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: 'Permanent Marker', cursive;
-    border-radius: 20px;
     padding:20px;
-    background:white;
-    margin: 50px;
+    color: white;
+    margin: 20px;
 }
 
 .slider31 {
@@ -213,14 +225,9 @@ div{
     border-radius: 5px;
     background: #d3d3d3;
     outline: none;
-    opacity: 0.7;
     -webkit-transition: .2s;
     transition: opacity .2s;
     margin:40px;
-  }
-  
-  .slider31:hover {
-    opacity: 1;
   }
   
   .slider31::-webkit-slider-thumb {
@@ -239,4 +246,20 @@ div{
     border-radius: 50%;
     background: rgb(110, 156, 167);
     cursor: pointer;
+  }
+
+  #cifradotxt {
+    padding: 18px;
+    margin: 2em;
+    width: 90%;
+    height: 150px;
+    font-size: 20px;
+  }
+
+  #answerciphertxt {
+    padding: 18px;
+    margin: 2em;
+    width: 90%;
+    height: 150px;
+    font-size: 20px;
   }
