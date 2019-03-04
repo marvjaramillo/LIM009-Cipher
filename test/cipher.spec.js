@@ -45,5 +45,5 @@ describe('cipher', () => {
       assert.equal(cipher.decode("\n",33), "\n")
     });
   });
-
+  
 });

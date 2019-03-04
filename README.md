@@ -294,11 +294,13 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 * [ ] Permite usar un `offset` negativo.
 
 
-María Jaramillo
-4/03/2019
-Caesar Cipher
 
-PROCESO Y DECISIONES DE DISEÑO
+
+#María Jaramillo
+#4/03/2019
+#Caesar Cipher
+
+###PROCESO Y DECISIONES DE DISEÑO
 
 A lo largo de nuestras vidas, hemos sentido ansiedad en distinta medida. Esto es debido a que es una emoción básica que experimentamos los seres humanos. Sin embargo, hay situaciones en donde, más que una emoción, es un transtorno.
 
@@ -309,22 +311,21 @@ En consecuencia, en la posición de profesor, no le permite confirmar si el alum
 Esto promovió a diseñar una opción factible con Caesar Cipher para ambos. Un web page donde pueda el alumno escribir 
 sus preguntas, y por medio de un cifrado por sustitución envíe aloo completamente diferente. De este modo, nadie, excepto el mismo y su profesor, sabría quién lo escribió o qué escribió hasta que el profe lo descifre.
 
-Para comenzar, en el fondo, se subí un paisaje de Alaska. A pesar de que no es la representación de 'calidez', este muestra un lugar tranquilo donde por un momento no puedes estar aquí. Luego, decidí que la gran mayoría de las esquinas sean redondeadas para mostrar suavidad, y confianza que no es una amenaza adicional. Por último, los estilos de letra y el uso del 'range slider' es para convertirlo en algo más entretenido.
+Para comenzar, en el fondo, se subí un paisaje de Alaska. A pesar de que no es la representación de 'calidez', este muestra un lugar tranquilo donde por un momento no puedes estar aquí. Luego, decidí que la gran mayoría de las esquinas sean redondeadas para mostrar suavidad y confianza, que no se sienta como una amenaza adicional. Por último, los estilos de letra y el uso del 'range slider' es para convertirlo en algo más entretenido.
 
 
 
-USUARIOS 
+###USUARIOS 
 
-ESTUDIANTES:
+##ESTUDIANTES:
 - 4to de primara a 5to de secundaria.
 - Muchas preocupaciones sobre cosas antes de que algo suceda.
-- Preocupaciones constantes sobre su funcionamiento en la escuela, con los amigos o en los deportes.
-- Pensamientos y acciones repetitivas (obsesiones).
+- Preocupaciones constantes sobre su funcionamiento en la escuela.
 - Temor de avergonzarse o cometer errores.
 - Tiene ganas de aprender, pero no sabe como aclarar sus dudas sin tener que hablar en frente de todos.
   (Cifrar preguntas o dudas)
 
-PROFESORES:
+## PROFESORES:
 - Enseña alumnos entre 4to de primaria y 5to de secundaria
 - Quiere promover la participación en clase de una manera interactiva y amigable
 - Se preocupa por el aprendizaje de sus alumnos
@@ -332,9 +333,13 @@ PROFESORES:
   (Descifrar preguntas de sus alumnos)
 
 
-COMO SOLUCIONA LOS PROBLEMAS DE LOS USUARIOS
+### COMO SOLUCIONA LOS PROBLEMAS DE LOS USUARIOS
 
-ESTUDIANTES
+## ESTUDIANTES
 
-Les permite 
-PROFESORES
+Les permite transformar sus preguntas o dudas a algo no entendible para los demás. Es decir, pueden mantener su anonimato mientras cuestionan o claran algo que no entendieron en clase. No podran avergonzarse porque nadie sabra quién lo escribió. Por último, no se estresaran buscando mil maneras de como formular la pregunta en sus cabezas para evitar ofender algo o alguien, y que se burlen de ellos.
+
+
+##PROFESORES
+
+Les facilita la promoción de la inclusión de la minoría, los niños y jóvenes ansiosos, para asegurarse que todos estén aprendiendo. Además, potenciar el vínculo profesor-alumno en base a la confianza, ya que no los está forzando a hacer algo que no están listos. Finalmente, aumentar el nivel de agradable del colegio.

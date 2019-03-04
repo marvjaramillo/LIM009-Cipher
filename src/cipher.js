@@ -15,7 +15,9 @@ window.cipher = {
       } else if (codigoLetra >= 97 && codigoLetra <= 122) {
       //minúsculas
         output += String.fromCharCode((codigoLetra - 97 + valOffset) % 26 + 97);
-      } else   {codigoLetra === 10;
+      } else if (codigoLetra >= 33 && codigoLetra <= 64) {
+        output += String.fromCharCode((codigoLetra - 33 + valOffset) % 32 + 33 );
+      } else  {codigoLetra === 10;
         //salto de línea
         output += String.fromCharCode(codigoLetra);
       }
@@ -38,6 +40,8 @@ window.cipher = {
       } else if (codigoletra1 >= 97 && codigoletra1 <= 122) {
         //minúsculas
         result += String.fromCharCode((codigoletra1 + 7 - valOffset1) % 26 + 97);
+      }  else if (codigoletra1 >= 33 && codigoletra1 <= 64) {
+        result += String.fromCharCode((codigoletra1 + 31 - valOffset1) % 32 + 33 );
       } else {codigoletra1 === 10;
         //salto de línea
         result += String.fromCharCode(codigoletra1);
@@ -46,8 +50,4 @@ window.cipher = {
     return result;
   }
 };
-function newFunction(output, nortxt, i) {
-  output += nortxt[i];
-  return output;
-}
 
