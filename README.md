@@ -296,11 +296,11 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 
 
 
-#María Jaramillo
-#4/03/2019
-#Caesar Cipher
+### María Jaramillo
+### 4/03/2019
+### Caesar Cipher
 
-###PROCESO Y DECISIONES DE DISEÑO
+# PROCESO Y DECISIONES DE DISEÑO
 
 A lo largo de nuestras vidas, hemos sentido ansiedad en distinta medida. Esto es debido a que es una emoción básica que experimentamos los seres humanos. Sin embargo, hay situaciones en donde, más que una emoción, es un transtorno.
 
@@ -315,9 +315,9 @@ Para comenzar, en el fondo, se subí un paisaje de Alaska. A pesar de que no es 
 
 
 
-###USUARIOS 
+# USUARIOS 
 
-##ESTUDIANTES:
+## ESTUDIANTES:
 - 4to de primara a 5to de secundaria.
 - Muchas preocupaciones sobre cosas antes de que algo suceda.
 - Preocupaciones constantes sobre su funcionamiento en la escuela.
@@ -333,13 +333,13 @@ Para comenzar, en el fondo, se subí un paisaje de Alaska. A pesar de que no es 
   (Descifrar preguntas de sus alumnos)
 
 
-### COMO SOLUCIONA LOS PROBLEMAS DE LOS USUARIOS
+# COMO SOLUCIONA LOS PROBLEMAS DE LOS USUARIOS
 
 ## ESTUDIANTES
 
 Les permite transformar sus preguntas o dudas a algo no entendible para los demás. Es decir, pueden mantener su anonimato mientras cuestionan o claran algo que no entendieron en clase. No podran avergonzarse porque nadie sabra quién lo escribió. Por último, no se estresaran buscando mil maneras de como formular la pregunta en sus cabezas para evitar ofender algo o alguien, y que se burlen de ellos.
 
 
-##PROFESORES
+## PROFESORES
 
 Les facilita la promoción de la inclusión de la minoría, los niños y jóvenes ansiosos, para asegurarse que todos estén aprendiendo. Además, potenciar el vínculo profesor-alumno en base a la confianza, ya que no los está forzando a hacer algo que no están listos. Finalmente, aumentar el nivel de agradable del colegio.
