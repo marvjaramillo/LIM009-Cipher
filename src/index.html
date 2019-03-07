@@ -12,7 +12,7 @@
         para enviar órdenes secretas a sus generales en los campos de batalla.<br>Bueno, ahora 
         puedes hacer lo mismo con tus preguntas a tu profe, sin que tus compañeros lo sepan.
       </p>
-      <div><button id="start" type="button">Comenzar</button></div>
+      <div><button id="start" class="start" type="button"><span><strong>Comenzar</strong></span></button></div>
     </div>
     <div id="second" class="second"> 
       <p>Primero, escribe tu pregunta en el primer cuadro. Después, desplaza hasta la 
@@ -25,18 +25,20 @@
       <p>Aquí copia tu cifrado y el desplazamiento que hiciste para que tu profe lo descifre en la siguiente página.</p>
       <div><input id="cipherbox" type="text" placeholder="cifrado"></div>
       <div><input id="shifter" type="text" placeholder="dezplazamiento"></div>
-      <div><button id="profesor" type="button">Profesor</button></div>      
+      <div><button id="profesor" class="profesor" type="button"><span><strong>Profesor</strong></span></button></div>      
     </div>
     <div id="third" class="third">
       <p>Okay profesor, este el cifrado de tu alumno(a), y el desplazamiento para descifrar la pregunta.</p>
+      <div class="board">
       <h2 id="studentcipher"></h2>
       <h3 id="decipheroffset"></h3>
+      </div>
       <p>Solo copie el cifrado en el primer cuadro, y luego desplaze el número mostrado arriba. Así de fácil!</p>
       <div id="numbershift1"># Desplazamientos: 0</div>
       <div><input id="shift2" type="range" min="-7" max="25" value="0" class="slider31"></div>
       <span><textarea id="cifradotxt" placeholder="Texto cifrado..." rows="6"></textarea></span>
       <span><textarea id="answerciphertxt" placeholder="Texto descifrado..." rows="6"></textarea></span>
-      <div><button id="again" type="button">Cifrar otra vez!</button></div>
+      <div><button id="again" class="again" type="button"><span><strong> Cifrar otra vez!</strong></span></button></div>
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

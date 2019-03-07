@@ -5,6 +5,9 @@ window.cipher = {
     let valOffset = parseInt(offset1);
 
     for(let i = 0; i < nortxt.length; i++) {
+      while (valOffset < 0) {
+        valOffset = valOffset + 26;
+      }
       const codigoLetra = nortxt.charCodeAt(i);
       if(codigoLetra >= 65 && codigoLetra <= 90) {
       //mayúsculas
@@ -30,6 +33,9 @@ window.cipher = {
     let valOffset1 = parseInt(offset2);
 
     for(let c = 0; c < nortxt2.length; c++) {
+      while (valOffset1 < 0) {
+        valOffset1 = valOffset1 + 26;
+      }
       const codigoletra1 = nortxt2.charCodeAt(c);
       if(codigoletra1 >= 65 && codigoletra1 <= 90) {
         //mayúsculas
