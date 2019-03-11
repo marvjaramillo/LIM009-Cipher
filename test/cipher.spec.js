@@ -21,6 +21,10 @@ describe('cipher', () => {
     it('debería retornar "salto de línea" para "salto de línea" con offset 33', () => {
       assert.equal(cipher.encode("\n",33), "\n")
     });
+
+    it('debería retornar "EFGHIJKLMNOPQRSTUVWXYZABCD" para "ABCDEFGHIJKLMNOPQRSTUVWXYZ" con offset 30',() =>{
+      assert.equal(cipher.encode("ABCDEFGHIJKLMNOPQRSTUVWXYZ",30), "EFGHIJKLMNOPQRSTUVWXYZABCD")
+    }); 
   });
 
   describe('cipher.decode', () => {
@@ -44,6 +48,9 @@ describe('cipher', () => {
     it('debería retornar "salto de línea" para "salto de línea" con offset 33', () => {
       assert.equal(cipher.decode("\n",33), "\n")
     });
+    
+    it('debería retornar "ABCDEFGHIJKLMNOPQRSTUVWXYZ" para "EFGHIJKLMNOPQRSTUVWXYZABCD" con offset 33', () => {
+      assert.equal(cipher.decode("EFGHIJKLMNOPQRSTUVWXYZABCD",30), "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    });
   });
-  
 });
