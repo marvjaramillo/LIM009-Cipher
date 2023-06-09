@@ -1,3 +1,40 @@
+###
+### MARIA JARAMILLO PROJECT
+### CAESAR CIPHER 
+
+## MOTIVO
+Participar de manera anónima en clases puede ser una herramienta útil para ayudar a los profesores a fomentar la participación de sus estudiantes. Esto se debe a que el anonimato les brinda libertad de compartir ideas sin preocuparse por ser ridiculizados o menospreciados. Por ello, la aplicación de Caesar Cipher en este webpage tendrá como objetivo principal contribuir activamente el parendizaje en el aula.  
+
+## USUARIOS 
+
+## ESTUDIANTES
+- Se encuentran de 1ero a 5to de secundaria.
+- Se sienten inseguros al participar en clase debido a su timidez y miedo al juicio de sus compañeros. 
+- Participar de manera anónima en clase le brinda la confianza necesaria para contribuir activamente. 
+
+## PROFESORES
+- Se encuentran enseñando a chicos de 1ero a 5to de secundaria. 
+- Tienen intereses en el desarrollo personal de sus alumnos y en la prmoción de un ambiente de aprendizaje positivo.
+- Implementar estrategias que promuevan la participación anónima en clase ocasiona que los alumnos compartan opiniones e ideas.
+
+## FUNCIONALIDAD
+
+## PARA LOS ESTUDIANTES
+Al utilizar el programa de Caesar Cipher, los estudiantes podrán codificar sus pensamientos o preguntas antes de compartirlos en la clase para añadir una capa adicional de confidencialidad. Este proceso de cifrado por sustitución consistirá en 3 pasos:
+
+1. Escribir un enunciado en un cuadro de texto como input.
+2. Utilizar el slider para establecer el número de desplazamientos para cifrar cada letra del texto original.
+3. Copiar el resultado y enviar el texto cifrado al profesor.  
+
+## PARA LOS PROFESORES
+Al utilizar el programa de Caesar Cipher, los profesores podrán decodificar las opiniones o preguntas de sus alumnos para volver sus clases más interactivas y promover la participación. Este proceso de descifrado por sustitución consistirá en 3 pasos:  
+
+1. Visualizar el texto cifrado y el número de desplazamientos utilizado.
+2. Copiar el texto y utilizar el slider ingresar el número de desplazamientos y decodificar el texto cifrado. 
+3. Visualizar el texto original en un cuadro de texto.
+
+## MARCO TEÓRICO Y OBJETIVOS DEL PROYECTO
+
 # Cifrado César
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
@@ -293,53 +330,3 @@ Esta sección está  para ayudarte a llevar un control de lo que vas completando
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
 
-
-
-
-### María Jaramillo
-### 4/03/2019
-### Caesar Cipher
-
-# PROCESO Y DECISIONES DE DISEÑO
-
-A lo largo de nuestras vidas, hemos sentido ansiedad en distinta medida. Esto es debido a que es una emoción básica que experimentamos los seres humanos. Sin embargo, hay situaciones en donde, más que una emoción, es un transtorno.
-
-En niños y adolescentes, el transtorno de ansiedad social les ocasiona un miedo excesivo a situaciones en las que uno puede ser juzgado, inquietud por pasar vergüenza o sufrir una humillación, y preocupación por ofender a alguien. Entre estas situaciones, se encuentra la participación en clase, lo cual hace que la escuela sea difícil para niños o jóvenes ansiosos.
-
-En consecuencia, en la posición de profesor, no le permite confirmar si el alumno está aprendiendo. Ya que las opciones son limitadas, no puede acercarse al alumno o llamarlo en frente de todos sus compañeros porque lo estaría exponiendo. Y lo estaría forando a hacer algo, cuando no se siente preparado aún.
-
-Esto promovió a diseñar una opción factible con Caesar Cipher para ambos. Un web page donde pueda el alumno escribir 
-sus preguntas, y por medio de un cifrado por sustitución envíe aloo completamente diferente. De este modo, nadie, excepto el mismo y su profesor, sabría quién lo escribió o qué escribió hasta que el profe lo descifre.
-
-Para comenzar, en el fondo, se subí un paisaje de Alaska. A pesar de que no es la representación de 'calidez', este muestra un lugar tranquilo donde por un momento no puedes estar aquí. Luego, decidí que la gran mayoría de las esquinas sean redondeadas para mostrar suavidad y confianza, que no se sienta como una amenaza adicional. Por último, los estilos de letra y el uso del 'range slider' es para convertirlo en algo más entretenido.
-
-
-
-# USUARIOS 
-
-## ESTUDIANTES:
-- 4to de primara a 5to de secundaria.
-- Muchas preocupaciones sobre cosas antes de que algo suceda.
-- Preocupaciones constantes sobre su funcionamiento en la escuela.
-- Temor de avergonzarse o cometer errores.
-- Tiene ganas de aprender, pero no sabe como aclarar sus dudas sin tener que hablar en frente de todos.
-  (Cifrar preguntas o dudas)
-
-## PROFESORES:
-- Enseña alumnos entre 4to de primaria y 5to de secundaria
-- Quiere promover la participación en clase de una manera interactiva y amigable
-- Se preocupa por el aprendizaje de sus alumnos
-- Reconoce que cada humano es diferente pero no siempre significa que sea malo 
-  (Descifrar preguntas de sus alumnos)
-
-
-# COMO SOLUCIONA LOS PROBLEMAS DE LOS USUARIOS
-
-## ESTUDIANTES
-
-Les permite transformar sus preguntas o dudas a algo no entendible para los demás. Es decir, pueden mantener su anonimato mientras cuestionan o claran algo que no entendieron en clase. No podran avergonzarse porque nadie sabra quién lo escribió. Por último, no se estresaran buscando mil maneras de como formular la pregunta en sus cabezas para evitar ofender algo o alguien, y que se burlen de ellos.
-
-
-## PROFESORES
-
-Les facilita la promoción de la inclusión de la minoría, los niños y jóvenes ansiosos, para asegurarse que todos estén aprendiendo. Además, potenciar el vínculo profesor-alumno en base a la confianza, ya que no los está forzando a hacer algo que no están listos. Finalmente, aumentar el nivel de agradable del colegio.
